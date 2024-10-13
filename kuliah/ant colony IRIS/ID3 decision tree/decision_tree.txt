@@ -1,0 +1,37 @@
+digraph {
+	135214723067536 [label="Feature: 2
+Threshold: 1.9
+Value: None"]
+	135214723067536 -> 135214723071808 [label="<= Threshold"]
+	135214723067536 -> 135214723067344 [label="> Threshold"]
+	135214723071808 [label="Feature: None
+Threshold: None
+Value: 0"]
+	135214723067344 [label="Feature: 2
+Threshold: 4.7
+Value: None"]
+	135214723067344 -> 135214723067392 [label="<= Threshold"]
+	135214723067344 -> 135214723071280 [label="> Threshold"]
+	135214723067392 [label="Feature: 3
+Threshold: 1.6
+Value: None"]
+	135214723067392 -> 135214723061488 [label="<= Threshold"]
+	135214723067392 -> 135214723070224 [label="> Threshold"]
+	135214723061488 [label="Feature: None
+Threshold: None
+Value: 1"]
+	135214723070224 [label="Feature: None
+Threshold: None
+Value: 2"]
+	135214723071280 [label="Feature: 3
+Threshold: 1.7
+Value: None"]
+	135214723071280 -> 135214723070608 [label="<= Threshold"]
+	135214723071280 -> 135214723070272 [label="> Threshold"]
+	135214723070608 [label="Feature: None
+Threshold: None
+Value: 1"]
+	135214723070272 [label="Feature: None
+Threshold: None
+Value: 2"]
+}
