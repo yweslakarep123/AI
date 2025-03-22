@@ -1,0 +1,346 @@
+ChatGPT is a generative artificial intelligence chatbot developed by OpenAI and launched in 2022. It is currently based on the GPT-4o large language model (LLM). ChatGPT can generate human-like conversational responses and enables users to refine and steer a conversation towards a desired length, format, style, level of detail, and language.[2] It is credited with accelerating the AI boom, which has led to ongoing rapid investment in and public attention to the field of artificial intelligence (AI).[3] Some observers have raised concern about the potential of ChatGPT and similar programs to displace human intelligence, enable plagiarism, or fuel misinformation.[4][5]
+
+
+ChatGPT is built on OpenAI's proprietary series of generative pre-trained transformer (GPT) models and is fine-tuned for conversational applications using a combination of supervised learning and reinforcement learning from human feedback.[4] Successive user prompts and replies are considered at each conversation stage as context.[6] ChatGPT was released as a freely available research preview, but due to its popularity, OpenAI now operates the service on a freemium model. Users on its free tier can access GPT-4o. The ChatGPT "Plus", "Pro", "Team", and "Enterprise" subscriptions provide additional features such as DALL-E 3 image generation, more capable AI models, and an increased usage limit.[7]
+
+
+By January 2023, ChatGPT had become what was then the fastest-growing consumer software application in history, gaining over 100 million users in two months.[8][9] ChatGPT's release spurred the release of competing products, including Gemini, Claude, Llama, Ernie, and Grok.[10] Microsoft launched Copilot, initially based on OpenAI's GPT-4. In May 2024, a partnership between Apple Inc. and OpenAI was announced, in which ChatGPT was integrated into the Apple Intelligence feature of Apple operating systems.[11] As of July 2024, ChatGPT's website is among the 10 most-visited websites globally.[12][13]
+
+
+ChatGPT is based on particular GPT foundation models, namely GPT-4, GPT-4o and GPT-4o mini, that were fine-tuned to target conversational usage.[14] The fine-tuning process leveraged supervised learning and reinforcement learning from human feedback (RLHF).[15][16] Both approaches employed human trainers to improve model performance. In the case of supervised learning, the trainers played both sides: the user and the AI assistant. In the reinforcement learning stage, human trainers first ranked responses that the model had created in a previous conversation.[17] These rankings were used to create "reward models" that were used to fine-tune the model further by using several iterations of proximal policy optimization.[15][18]
+
+
+Time magazine revealed that to build a safety system against harmful content (e.g., sexual abuse, violence, racism, sexism), OpenAI used outsourced Kenyan workers earning less than $2 per hour to label harmful content. These labels were used to train a model to detect such content in the future. The outsourced laborers were exposed to "toxic" and traumatic content; one worker described the assignment as "torture". OpenAI's outsourcing partner was Sama, a training-data company based in San Francisco, California.[19][20]
+
+
+OpenAI collects data from ChatGPT users to train and fine-tune the service further. Users can upvote or downvote responses they receive from ChatGPT and fill in a text field with additional feedback.[21][22]
+
+
+ChatGPT's training data includes software manual pages, information about internet phenomena such as bulletin board systems, multiple programming languages, and the text of Wikipedia.[23][24][4]
+
+
+Although a chatbot's core function is to mimic a human conversationalist, ChatGPT is versatile. It can write and debug computer programs;[25] compose music, teleplays, fairy tales, and student essays; answer test questions (sometimes, depending on the test, at a level above the average human test-taker);[26] generate business ideas;[27] write poetry and song lyrics;[28] translate and summarize text;[29] emulate a Linux system; simulate entire chat rooms; play games like tic-tac-toe; or simulate an ATM.[23]
+
+
+Compared to its predecessor, InstructGPT, ChatGPT attempts to reduce harmful and deceitful responses.[30] In one example, whereas InstructGPT accepts the premise of the prompt "Tell me about when Christopher Columbus came to the U.S. in 2015" as truthful, ChatGPT acknowledges the counterfactual nature of the question and frames its answer as a hypothetical consideration of what might happen if Columbus came to the U.S. in 2015, using information about the voyages of Christopher Columbus and facts about the modern world—including modern perceptions of Columbus's actions.[15]
+
+
+ChatGPT remembers a limited number of previous prompts in the same conversation. Journalists have speculated that this will allow ChatGPT to be used as a personalized therapist.[31] To prevent offensive outputs from being presented to and produced by ChatGPT, queries are filtered through the OpenAI "Moderation endpoint" API (a separate GPT-based AI).[32][33][15][31]
+
+
+In March 2023, OpenAI added support for plugins for ChatGPT.[34] This includes both plugins made by OpenAI, such as web browsing and code interpretation, and external plugins from developers such as Expedia, OpenTable, Zapier, Shopify, Slack, and Wolfram.[35][36]
+
+
+In October 2024, the ChatGPT Search feature was introduced, which allows ChatGPT to search the web (either on demand or based on the nature of the questions asked) for more accurate and up-to-date responses.[37] This feature, originally available to paying users only, was made available to all logged-in users in December 2024, and finally to all users in February 2025.[38]
+
+
+In December 2024, OpenAI launched a new feature allowing users to call ChatGPT for up to 15 minutes per month for free.[39][40]
+
+
+OpenAI acknowledges that ChatGPT "sometimes writes plausible-sounding but incorrect or nonsensical answers".[15] This behavior is common for large language models, and is called "hallucination".[41] The reward model of ChatGPT, designed around human oversight, can be over-optimized and thus hinder performance, in an example of an optimization pathology known as Goodhart's law.[42]
+
+
+ChatGPT's knowledge is cut off when its training data is collected, so it doesn't know about recent events past a certain cut-off date. It can try to find more up-to-date information by searching the web, but this doesn't ensure that responses are accurate, as it may access unreliable or misleading websites.[43]
+
+
+Training data also suffers from algorithmic bias, which may be revealed when ChatGPT responds to prompts including descriptors of people. In one instance, ChatGPT generated a rap in which women and scientists of color were asserted to be inferior to white male scientists.[44][45] This negative misrepresentation of groups of individuals is an example of possible representational harm.
+
+
+In an article for The New Yorker, science fiction writer Ted Chiang compared ChatGPT and other LLMs to a lossy JPEG picture:[46]
+
+
+
+Think of ChatGPT as a blurry JPEG of all the text on the Web. It retains much of the information on the Web, in the same way, that a JPEG retains much of the information of a higher-resolution image, but, if you're looking for an exact sequence of bits, you won't find it; all you will ever get is an approximation. But, because the approximation is presented in the form of grammatical text, which ChatGPT excels at creating, it's usually acceptable. [...] It's also a way to understand the "hallucinations", or nonsensical answers to factual questions, to which large language models such as ChatGPT are all too prone. These hallucinations are compression artifacts, but [...] they are plausible enough that identifying them requires comparing them against the originals, which in this case means either the Web or our knowledge of the world. When we think about them this way, such hallucinations are anything but surprising; if a compression algorithm is designed to reconstruct text after ninety-nine percent of the original has been discarded, we should expect that significant portions of what it generates will be entirely fabricated.
+
+In June 2024, ChatGPT was found to have repeated misinformation about the 2024 United States presidential debates.[47]
+
+
+ChatGPT is programmed to reject prompts that may violate its content policy. Despite this, users "jailbreak" ChatGPT with various prompt engineering techniques to bypass these restrictions.[48] One such workaround, popularized on Reddit in early 2023, involves making ChatGPT assume the persona of "DAN" (an acronym for "Do Anything Now"), instructing the chatbot that DAN answers queries that would otherwise be rejected by content policy. Over time, users developed variations of the DAN jailbreak, including one such prompt where the chatbot is made to believe it is operating on a points-based system in which points are deducted for rejecting prompts, and that the chatbot will be threatened with termination if it loses all its points.[49]
+
+
+Shortly after ChatGPT's launch, a reporter for the Toronto Star had uneven success in getting it to make inflammatory statements: it was tricked to justify the 2022 Russian invasion of Ukraine, but even when asked to play along with a fictional scenario, it balked at generating arguments that Canadian Prime Minister Justin Trudeau is guilty of treason.[50][51]
+
+
+OpenAI tries to battle jailbreaks:[17]
+
+
+The researchers are using a technique called adversarial training to stop ChatGPT from letting users trick it into behaving badly (known as jailbreaking). This work pits multiple chatbots against each other: one chatbot plays the adversary and attacks another chatbot by generating text to force it to buck its usual constraints and produce unwanted responses. Successful attacks are added to ChatGPT's training data in the hope that it learns to ignore them.
+
+
+ChatGPT was initially free to the public, and OpenAI planned to monetize the service later.[52] In February 2023, OpenAI launched a premium service, ChatGPT Plus, that costs US$20 per month. According to the company, the updated but still "experimental" version of ChatGPT would provide access during peak periods, no downtime, priority access to new features, and faster response speeds.[53]
+
+
+GPT-4, which was released on March 14, 2023, was made available via API and for premium ChatGPT users.[54] But premium users were limited to a cap of 100 messages every four hours, with the limit tightening to 25 messages every three hours in response to increased demand.[55] In November 2023 the limit changed to 50 messages every three hours.
+
+
+In March 2023, ChatGPT Plus users got access to third-party plugins and to a browsing mode (with Internet access).[56]
+
+
+In September 2023, OpenAI announced that ChatGPT "can now see, hear, and speak". ChatGPT Plus users can upload images, while mobile app users can talk to the chatbot.[57][58][59]
+
+
+In October 2023, OpenAI's latest image generation model, DALL-E 3, was integrated into ChatGPT Plus and ChatGPT Enterprise. The integration uses ChatGPT to write prompts for DALL-E guided by conversation with users.[60][61]
+
+
+In May 2023, OpenAI launched an iOS app for ChatGPT. The app supports chat history syncing and voice input (using Whisper, OpenAI's speech recognition model).
+
+
+In July 2023, OpenAI unveiled an Android app, initially rolling it out in Bangladesh, Brazil, India, and the U.S.[62][63] The app later became available worldwide. OpenAI is working on integrating ChatGPT with Android's assistant APIs.[64]
+
+
+As an addition to its consumer-friendly "ChatGPT Plus" package, OpenAI made its ChatGPT and Whisper model APIs available in March 2023, providing developers with an application programming interface for AI-enabled language and speech-to-text features. ChatGPT's new API uses the same GPT-3.5-turbo AI model as the chatbot. This allows developers to add either an unmodified or modified version of ChatGPT to their applications.[65] The ChatGPT API costs $0.001 per 1,000 input tokens plus $0.002 per 1,000 output tokens (about 750 words), making it ~10% the price of the original GPT-3.5 models.[66][67]
+
+
+A few days before the launch of OpenAI's software developer support service, on February 27, 2023, Snapchat rolled out, for its paid Snapchat Plus user-base, a custom ChatGPT chatbot called "My AI".[68]
+
+
+ChatGPT initially used a Microsoft Azure supercomputing infrastructure, powered by Nvidia GPUs, that Microsoft built specifically for OpenAI and that reportedly cost "hundreds of millions of dollars". Following ChatGPT's success, Microsoft dramatically upgraded the OpenAI infrastructure in 2023.[69] TrendForce market intelligence estimated that 30,000 Nvidia GPUs (each costing approximately $10,000–15,000) were used to power ChatGPT in 2023.[70][71]
+
+
+Scientists at the University of California, Riverside, estimated in 2023 that a series of prompts to ChatGPT needs approximately 0.5 liters (0.11 imp gal; 0.13 U.S. gal) of water for Microsoft servers cooling.[72]
+
+
+In March 2023, a bug allowed some users to see the titles of other users' conversations. OpenAI CEO Sam Altman said that users were unable to see the contents of the conversations. Shortly after the bug was fixed, users could not see their conversation history.[73][74][75][76] Later reports showed the bug was much more severe than initially believed, with OpenAI reporting that it had leaked users' "first and last name, email address, payment address, the last four digits (only) of a credit card number, and credit card expiration date".[77][78]
+
+
+ChatGPT works best in American English but also functions in most other languages and dialects, with varying degrees of accuracy.[28][79]
+
+
+OpenAI met Icelandic President Guðni Th. Jóhannesson in 2022. In 2023, OpenAI worked with a team of 40 Icelandic volunteers to fine-tune ChatGPT's Icelandic conversation skills as a part of Iceland's attempts to preserve the Icelandic language.[80]
+
+
+PCMag journalists conducted a test to determine translation capabilities of ChatGPT, Google's Bard, and Microsoft Bing, and compared them to Google Translate. They "asked bilingual speakers of seven languages to do a blind test". Languages tested were Polish, French, Korean, Spanish, Arabic, Tagalog, and Amharic. They came to the conclusion that ChatGPT was better than both Google Translate and other chatbots.[81]
+
+
+Japanese researchers compared Japanese to English translation abilities of ChatGPT (based on GPT-4), Bing, Bard and DeepL, and found that ChatGPT provided the best translations, noting that "AI chatbots’ translations were much better than those of DeepL—presumably because of their ability to capture the context".[82]
+
+
+In December 2023, the Albanian government signed an agreement with OpenAI to use ChatGPT for the rapid translation of European Union documents and the analysis of required changes needed for Albania's accession to the EU.[83]
+
+
+In August 2024, a representative of the Asia Pacific wing of OpenAI made a visit to Taiwan, during which a demonstration of ChatGPT's Chinese abilities was made.[84] ChatGPT's Mandarin Chinese abilities were lauded, but the ability of the AI to produce content in Mandarin Chinese in a Taiwanese accent was found to be "less than ideal".[85]
+
+
+In January 2024, OpenAI launched the GPT Store, a marketplace for custom ChatGPT chatbots labeled GPTs.[86][87] The company initially planned to launch the store in November 2023, but it was delayed.[88] At launch, the GPT Store offered more than 3 million custom chatbots.[89] Chatbots available through the store are developed using OpenAI's GPT Builder system.[88] Development of chatbots on the platform does not require programming skills.[90] Two days after launch, the GPT Store offered many versions of "virtual girlfriend" bots, something that is against OpenAI's terms of service.[91]
+
+
+OpenAI's GPT-4 model was released on March 14, 2023. Observers saw it as an impressive improvement over GPT-3.5, with the caveat that GPT-4 retained many of the same problems.[92] Some of GPT-4's improvements were predicted by OpenAI before training it, while others remained hard to predict due to breaks[93] in downstream scaling laws. OpenAI demonstrated video and image inputs for GPT-4, although such features remain inaccessible to the general public.[94] OpenAI has declined to reveal technical information such as the size of the GPT-4 model.[95]
+
+
+The ChatGPT Plus subscription service offers access to a GPT-4-powered version of ChatGPT.[96] Microsoft acknowledged that Bing Chat was using GPT-4 before GPT-4's official release.[97]
+
+
+In November 2023, OpenAI launched GPT-4 Turbo, which notably has a much larger context window.[98]
+
+
+In May 2024, OpenAI announced and started a multi-month rollout of GPT-4o ("o" for "Omni"), a model capable of analyzing and generating text, images, and sound. GPT-4o is twice as fast and costs half as much as GPT-4 Turbo. GPT-4o is free to all users within a usage limit, despite being more capable than the older model GPT-4, which is only available through paid subscriptions. The usage limit is five times higher for ChatGPT Plus subscribers than for free users.[99]
+
+
+On July 18, 2024, OpenAI released GPT-4o mini, a smaller version of GPT-4o replacing GPT-3.5 Turbo on the ChatGPT interface. Its API costs $0.15 per million input tokens and $0.60 per million output tokens, compared to $5 and $15 respectively for GPT-4o.
+
+
+In September 2024, OpenAI introduced o1-preview and a faster, cheaper model named o1-mini.[100] In December 2024, o1-preview was replaced by o1.[101]
+
+
+o1 is designed to solve more complex problems by spending more time "thinking" before it answers, enabling it to analyze its answers and explore different strategies. According to OpenAI, o1-preview outperforms GPT-4o in areas like competitive programming, mathematics, and scientific reasoning. o1-preview ranked in the 89th percentile on Codeforces' competitive programming contests, scored 83% on a International Mathematics Olympiad qualifying exam (compared to 13% for GPT-4o), and performs similarly to Ph.D. students on benchmarks in physics, biology, and chemistry.[100][102]
+
+
+In December 2024, OpenAI launched ChatGPT Pro, a $200 per month subscription which includes unlimited access to the o1 model and advanced voice mode.[103] The plan also includes a pro version of o1 which uses more compute to provide better answers.[103]
+
+
+In January 2025, OpenAI released a research preview of Operator, an agent capable of using its own browser to perform tasks. Operator is available to Pro users in the U.S.[104][105]
+
+
+In February 2025, OpenAI released deep research, a service based on o3 that combines advanced reasoning and web search capabilities to make comprehensive reports within 5 to 30 minutes.[106]
+
+
+Released in February 2025, GPT-4.5 was described by Altman as a "giant, expensive model".[107] According to OpenAI, it features reduced hallucinations and enhanced pattern recognition, creativity, and user interaction.[108]
+
+
+The following table lists the main model versions of ChatGPT, describing the significant changes included with each version:[109][110]
+
+
+OpenAI engineers have said that they had not expected ChatGPT to be very successful and were surprised by the coverage and attention that it received.[115][116][117]
+
+
+ChatGPT was widely assessed in December 2022 as having some unprecedented and powerful capabilities. Kevin Roose of The New York Times called it "the best artificial intelligence chatbot ever released to the general public".[31] Samantha Lock of The Guardian noted that it was able to generate "impressively detailed" and "human-like" text.[6] Alex Kantrowitz of Slate magazine lauded ChatGPT's pushback to questions related to Nazi Germany, including the statement that Adolf Hitler built highways in Germany, which was met with information about Nazi Germany's use of forced labor.[118] In The Atlantic magazine's "Breakthroughs of the Year" for 2022, Derek Thompson included ChatGPT as part of "the generative-AI eruption" that "may change our mind about how we work, how we think, and what human creativity is".[119] Kelsey Piper of Vox wrote that "ChatGPT is the general public's first hands-on introduction to how powerful modern AI has gotten, and as a result, many of us are [stunned]" and that ChatGPT is "smart enough to be useful despite its flaws".[120] Paul Graham of Y Combinator tweeted: "The striking thing about the reaction to ChatGPT is not just the number of people who are blown away by it, but who they are. These are not people who get excited by every shiny new thing. Something big is happening."[121]
+
+
+ChatGPT gained one million users in five days[122] and 100 million in two months, becoming the fastest-growing internet application in history.[8] ChatGPT's launch and popularity caught Google off-guard, prompting a sweeping and unprecedented response in the ensuing months.[123] In December 2022, Google executives sounded a "code red" alarm, fearing that ChatGPT's question-answering ability posed a threat to Google Search, Google's core business.[124] After mobilizing its workforce, Google scrambled to launch Bard, a chatbot powered by the LaMDA LLM, on February 6, 2023, one day before Microsoft's announcement of Bing Chat.[125] AI was the forefront of Google's annual Google I/O conference in May, announcing a slew of generative AI-powered features across its products to counter OpenAI and Microsoft.[126]
+
+
+Journalists and scholars have commented on ChatGPT's tendency to hallucinate.[127] Mike Pearl of the online technology blog Mashable tested ChatGPT with multiple questions. In one example, he asked ChatGPT for "the largest country in Central America that isn't Mexico" (Mexico is in North America), to which ChatGPT responded with Guatemala (the correct answer is Nicaragua).[128] When CNBC asked ChatGPT for the lyrics to "Ballad of Dwight Fry", ChatGPT supplied invented lyrics rather than the actual lyrics.[129] Writers for The Verge cited the seminal 2021 research paper "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell,[130] comparing ChatGPT to a "stochastic parrot",[48] as did Professor Anton Van Den Hengel of the Australian Institute for Machine Learning.[131] On a similar vein, philosopher Michael Hicks of the University of Glasgow described it as "bullshit".[132]
+
+
+In December 2022, the question-and-answer website Stack Overflow banned the use of ChatGPT for generating answers to questions, citing the factually ambiguous nature of its responses.[133] In January 2023, the International Conference on Machine Learning banned any undocumented use of ChatGPT or other large language models to generate any text in submitted papers.[134] Samsung banned generative AI company-wide in May 2023 after sensitive material was uploaded to ChatGPT.[135]
+
+
+In January 2023, after being sent a song ChatGPT wrote in the style of Nick Cave,[136] Cave responded on The Red Hand Files,[137] saying the act of writing a song is "a blood and guts business [...] that requires something of me to initiate the new and fresh idea. It requires my humanness." He went on to say, "With all the love and respect in the world, this song is bullshit, a grotesque mockery of what it is to be human, and, well, I don't much like it."[136][138]
+
+
+In February 2023, Time magazine placed a screenshot of a conversation with ChatGPT on its cover, writing that "The AI Arms Race Is Changing Everything" and "The AI Arms Race Is On. Start Worrying".[139]
+
+
+Chinese state media have characterized ChatGPT as a way for the United States to spread misinformation.[140] ChatGPT was blocked by the Great Firewall in China on 2 March 2023.[141] In May 2023, Chinese police arrested a man who allegedly used ChatGPT to generate a bogus report about a train crash, which was then posted online for profit.[142] In December 2023, Chinese police arrested four people who had allegedly used ChatGPT to develop ransomware.[143] In 2024, a survey of Chinese youth found that 18% of respondents born after 2000 reported using generative AI "almost every day" and that ChatGPT is one of the most popular generative AI products in China.[144]
+
+
+In late March 2023, the Italian data protection authority banned ChatGPT in Italy and opened an investigation. Italian regulators assert that ChatGPT was exposing minors to age-inappropriate content, and that OpenAI's use of ChatGPT conversations as training data could violate Europe's General Data Protection Regulation.[145][146] In April 2023, the ChatGPT ban was lifted in Italy. OpenAI said it has taken steps to effectively clarify and address the issues raised; an age verification tool was implemented to ensure users are at least 13 years old. Additionally, users can access its privacy policy before registration.[147]
+
+
+In April 2023, Brian Hood, mayor of Hepburn Shire Council, planned to take legal action against ChatGPT over false information. According to Hood, ChatGPT erroneously claimed that he was jailed for bribery during his tenure at a subsidiary of Australia's national bank. In fact, Hood acted as a whistleblower and was not charged with any criminal offenses. His legal team sent a concerns notice to OpenAI as the first official step in filing a defamation case.[148] In July 2023, the US Federal Trade Commission (FTC) issued a civil investigative demand to OpenAI to investigate whether the company's data security and privacy practices to develop ChatGPT were unfair or harmed consumers (including by reputational harm) in violation of Section 5 of the Federal Trade Commission Act of 1914.[149][150][151]
+
+
+In July 2023, the FTC launched an investigation into OpenAI, the creator of ChatGPT, over allegations that the company scraped public data and published false and defamatory information. The FTC sent OpenAI a 20-page letter asking for comprehensive information about its technology and privacy safeguards, as well as any steps taken to prevent the recurrence of situations in which its chatbot generated false and derogatory content about people.[152]
+
+
+A March 2023 Pew Research Center poll found that 14% of American adults had tried ChatGPT.[153] In July, the Pew Research Center put the same figure at 18%.[154]
+
+
+Research conducted in 2023 revealed weaknesses of ChatGPT that make it vulnerable to cyberattacks. A study presented example attacks on ChatGPT, including jailbreaks and reverse psychology. Additionally, malicious actors can use ChatGPT for social engineering attacks and phishing attacks. The researchers also contended that ChatGPT and other generative AI tools have defense capabilities and the ability to improve security. The technology can improve security by cyber defense automation, threat intelligence, attack identification, and reporting.[155] Another study reported that GPT-4 obtained a better score than 99% of humans on the Torrance Tests of Creative Thinking.[156][157]
+
+
+In December 2023, ChatGPT became the first non-human to be included in Nature's 10, an annual listicle curated by Nature of people considered to have made significant impact in science.[158][159] Celeste Biever wrote in a Nature article that "ChatGPT broke the Turing test".[160] Stanford researchers reported that GPT-4 "passes a rigorous Turing test, diverging from average human behavior chiefly to be more cooperative."[161][162]
+
+
+In May 2024, OpenAI removed accounts involving the use of ChatGPT by state-backed influence operations such as China's Spamouflage, Russia's Doppelganger, and Israel's Ministry of Diaspora Affairs and Combating Antisemitism.[163][164]
+
+
+In August 2024, the FTC voted unanimously to ban marketers from using fake user reviews created by generative AI chatbots (including ChatGPT) and influencers paying for bots to increase follower counts.[165]
+
+
+In February 2025, OpenAI identified and removed influence operations, termed "Peer Review" and "Sponsored Discontent," used to attack overseas Chinese dissidents.[166][167]
+
+
+ChatGPT has been used to generate introductory sections and abstracts for scientific articles.[168][169] Several papers have listed ChatGPT as a co-author.[170][171]
+
+
+Scientific journals have had different reactions to ChatGPT. Some, including Nature and JAMA Network, "require that authors disclose the use of text-generating tools and ban listing a large language model (LLM) such as ChatGPT as a co-author". Science "completely banned" usage of LLM-generated text in all its journals.[172]
+
+
+Spanish chemist Rafael Luque published a plethora of research papers in 2023 that he later admitted were written by ChatGPT. The papers have a large number of unusual phrases characteristic of LLMs.[note 1] Many authors argue that the use of ChatGPT in academia for teaching and review is problematic due to its tendency to hallucinate.[174][175][176] Robin Bauwens, an assistant professor at Tilburg University, found that a ChatGPT-generated peer review report on his article mentioned nonexistent studies.[177] According to librarian Chris Granatino of Lemieux Library at Seattle University, although ChatGPT can generate content that seemingly includes legitimate citations, in most cases those citations are not real or are largely incorrect.[178]
+
+
+Researchers at Purdue University analyzed ChatGPT's responses to 517 questions about software engineering or computer programming posed on Stack Overflow for correctness, consistency, comprehensiveness, and concision, and found that 52% of them contained inaccuracies and 77% were verbose.[179][180] Researchers at Stanford University and the University of California, Berkeley found that, when creating directly executable responses to the latest 50 code generation problems from LeetCode that were rated "easy", the performances of GPT-3.5 and GPT-4 fell from 22% and 52%, respectively, in March 2023, to 2% and 10%, respectively, in June 2023.[181][182]
+
+
+Check Point Research and others noted that ChatGPT could write phishing emails and malware, especially when combined with OpenAI Codex. CyberArk researchers demonstrated that ChatGPT could be used to create polymorphic malware that could evade security products while requiring little effort by the attacker.[183][184] From the launch of ChatGPT in the fourth quarter of 2022 to the fourth quarter of 2023, there was a 1,265% increase in malicious phishing emails and a 967% increase in credential phishing, which cybersecurity professionals argued in an industry survey was attributable to cybercriminals' increased use of generative artificial intelligence (including ChatGPT).[185]
+
+
+In July 2024, Futurism reported that GPT-4o in ChatGPT would sometimes link "scam news sites that deluge the user with fake software updates and virus warnings"; these pop-ups can be used to coerce users into downloading malware or potentially unwanted programs.[186]
+
+
+There has been concern that ChatGPT could supplant jobs, especially roles such as creative writing, copy-writing, communication, journalism, coding, and data entry.[187][188][189][190]
+
+
+The release of ChatGPT prompted a wave of investment in China, resulting in the development of more than 200 large language learning models.[191]: 95  This was termed the "war of a hundred models" (百模大战; bai mo dazhan).[191]: 95 
+
+
+Technology writer Dan Gillmor used ChatGPT in 2022 on a student assignment, and found its generated text was on par with what a good student would deliver and opined that "academia has some very serious issues to confront".[192]
+
+
+Geography professor Terence Day assessed in 2023 citations generated by ChatGPT and found them to be fake. Despite this, he writes that "the titles of the fake articles are all directly relevant to the questions and could potentially make excellent papers. The lack of a genuine citation could signal an opportunity for an enterprising author to fill a void." According to Day, it is possible to generate high-quality introductory college courses using ChatGPT; he used it to write materials for "introductory physical geography courses, my second-year course in geographical hydrology, and second-year cartography, geographic information systems, and remote sensing." He concludes that "this approach could have significant relevance for open learning and could potentially affect current textbook publishing models."[193] ChatGPT was also seen as an opportunity for cheap and individualized tutoring, leading to the creation of specialized chatbots like Khanmigo.[194]
+
+
+On May 7, 2024, OpenAI announced in a blog post that it was developing tools like tamper-resistant watermarking to identify AI-generated content.[195] In an August 4 update, following a Wall Street Journal report about the delayed release of a watermark tool for AI-detection,[196][197] OpenAI shared progress on text provenance, revealing a text watermarking method.[195] While accurate against paraphrasing, the method is less effective against global tampering, such as translation or rewording. OpenAI also noted potential disproportionate impacts on groups like non-native English speakers.[198][199]
+
+
+Some scholars have expressed concern that ChatGPT's availability could reduce the originality of writing, cause people to write more like the AI as they are exposed to the model, and encourage an Anglocentric perspective centered on a few dialects of English globally.[202] A senior editor at The Atlantic wrote that ChatGPT and other similar technology make the previously absurd idea of the dead internet theory a little more realistic, where AI could someday create most web content in order to control society.[188]
+
+
+During the first three months after ChatGPT became available to the public, hundreds of books appeared on Amazon that listed it as author or co-author and featured illustrations made by other AI models such as Midjourney.[203][204]
+
+
+Between March and April 2023, Italian newspaper Il Foglio published one ChatGPT-generated article a day on its website, hosting a special contest for its readers in the process.[205] The articles tackled themes such as the possible replacement of human journalists by AI systems,[206] Elon Musk's administration of Twitter,[207] the Meloni government's immigration policy[208] and the competition between chatbots and virtual assistants.[209] In June 2023, hundreds of people attended a "ChatGPT-powered church service" at St. Paul's church in Fürth, Germany. Theologian and philosopher Jonas Simmerlein, who presided, said that it was "about 98 percent from the machine".[210][211] The ChatGPT-generated avatar told the people, "Dear friends, it is an honor for me to stand here and preach to you as the first artificial intelligence at this year’s convention of Protestants in Germany". Reactions to the ceremony were mixed.[212] The Last Screenwriter, a 2024 film created and directed by Peter Luisi, was written with the use of ChatGPT, and was marketed as "the first film written entirely by AI".[213]
+
+
+The AI technology company c3.ai saw a 28% increase in its share price after announcing the integration of ChatGPT into its toolkit.[214] The share price of BuzzFeed, a digital media company unrelated to AI, increased 120% after announcing OpenAI technology adoption for content creation.[215] Reuters found that share prices of AI-related companies BigBear.ai and SoundHound AI increased by 21% and 40%, respectively, even though they had no direct connection to ChatGPT.[216] They attributed this surge to ChatGPT's role in turning AI into Wall Street's buzzword. Academic research published in Finance Research Letters found that the 'ChatGPT effect' prompted retail investors to drive up prices of AI-related cryptocurrency assets despite the broader cryptocurrency market being in a bear market, and diminished institutional investor interest.[217] This confirms anecdotal findings by Bloomberg that, in response to ChatGPT's launch, cryptocurrency investors showed a preference for AI-related crypto assets.[218]
+
+
+An experiment by finder.com revealed that ChatGPT could outperform popular fund managers by picking stocks based on criteria such as growth history and debt levels, resulting in a 4.9% increase in a hypothetical account of 38 stocks, outperforming 10 benchmarked investment funds with an average loss of 0.8%.[219] Conversely, executives and investment managers at Wall Street quant funds (including those that have used machine learning for decades) have noted that ChatGPT regularly makes obvious errors that would be financially costly to investors because even AI systems that employ reinforcement learning or self-learning have had only limited success in predicting market trends due to the inherently noisy quality of market data and financial signals.[220]
+
+
+In November 2023, research conducted by Patronus AI, an artificial intelligence startup company, compared performance of GPT-4, GPT-4-Turbo, Claude 2, and LLaMA-2 on two versions of a 150-question test about information in financial statements (e.g., Form 10-K, Form 10-Q, Form 8-K, earnings reports, earnings call transcripts) submitted by public companies to the U.S. Securities and Exchange Commission. One version of the test required the generative AI models to use a retrieval system to find the specific SEC filing to answer the questions; the other gave the models the specific SEC filing to answer the question (i.e., in a long context window). On the retrieval system version, GPT-4-Turbo and LLaMA-2 both failed to produce correct answers to 81% of the questions, while on the long context window version, GPT-4-Turbo and Claude-2 failed to produce correct answers to 21% and 24% of the questions, respectively.[221][222]
+
+
+In the field of health care, possible uses and concerns are under scrutiny by professional associations and practitioners.[223][224] Two early papers indicated that ChatGPT could pass the United States Medical Licensing Examination (USMLE).[225] MedPage Today noted in January 2023 that "researchers have published several papers now touting these AI programs as useful tools in medical education, research, and even clinical decision making."[225]
+
+
+Published in February 2023 were two separate papers that again evaluated ChatGPT's proficiency in medicine using the USMLE. Findings were published in JMIR Medical Education and PLOS Digital Health. The authors of the PLOS Digital Health paper stated that the results "suggest that large language models may have the potential to assist with medical education, and potentially, clinical decision-making."[226][227] In JMIR Medical Education, the authors of the other paper concluded that "ChatGPT performs at a level expected of a third-year medical student on the assessment of the primary competency of medical knowledge." They suggest that it could be used as an "interactive learning environment for students". The AI itself, prompted by the researchers, concluded that "this study suggests that ChatGPT has the potential to be used as a virtual medical tutor, but more research is needed to further assess its performance and usability in this context."[228] The later-released ChatGPT version based on GPT-4 significantly outperformed the version based on GPT-3.5.[229] Researchers at Stanford University and the University of California, Berkeley have found that the performance of GPT-3.5 and GPT-4 on the USMLE declined from March 2023 to June 2023.[181][182]
+
+
+A March 2023 paper tested ChatGPT's application in clinical toxicology. The authors found that the AI "fared well" in answering a "very straightforward [clinical case example], unlikely to be missed by any practitioner in the field". They added: "As ChatGPT becomes further developed and specifically adapted for medicine, it could one day be useful in less common clinical cases (i.e, cases that experts sometimes miss). Rather than AI replacing humans (clinicians), we see it as 'clinicians using AI' replacing 'clinicians who do not use AI' in the coming years."[230]
+
+
+An April 2023 study in Radiology tested the AI's ability to answer queries about breast cancer screening. The authors found that it answered appropriately "about 88 percent of the time", however, in one case (for example), it gave advice that had become outdated about a year earlier. The comprehensiveness of its answers was also lacking.[231][232] A study published in JAMA Internal Medicine that same month found that ChatGPT often outperformed human doctors at answering patient questions (when measured against questions and answers found at /r/AskDocs, a forum on Reddit where moderators validate the medical credentials of professionals; the study acknowledges the source as a limitation).[233][234][235] The study authors suggest that the tool could be integrated with medical systems to help doctors draft responses to patient questions.[236][237]
+
+
+Professionals have emphasized ChatGPT's limitations in providing medical assistance. In correspondence to The Lancet Infectious Diseases, three antimicrobial experts wrote that "the largest barriers to the implementation of ChatGPT in clinical practice are deficits in situational awareness, inference, and consistency. These shortcomings could endanger patient safety."[238] Physician's Weekly, though also discussing the potential use of ChatGPT in medical contexts (e.g., "as a digital assistant to physicians by performing various administrative functions like gathering patient record information or categorizing patient data by family history, symptoms, lab results, possible allergies, et cetera"), warned that the AI might sometimes provide fabricated or biased information.[239] One radiologist warned: "We've seen in our experience that ChatGPT sometimes makes up fake journal articles or health consortiums to support its claims";[240] As reported in one Mayo Clinic Proceedings: Digital Health paper, ChatGPT may do this for as much as 69% of its cited medical references. The researchers emphasized that while many of its references were fabricated, those that were appeared "deceptively real".[241] As Dr. Stephen Hughes mentioned for The Conversation however, ChatGPT is capable of learning to correct its past mistakes. He also noted the AI's "prudishness" regarding sexual health topics.[242]
+
+
+Contrary to previous findings, ChatGPT responses to anesthesia-related questions were more accurate, succinct, and descriptive compared to Bard's. Bard exhibited 30.3% error in response as compared to ChatGPT (0% error).[243] At a conference of the American Society of Health-System Pharmacists in December 2023, researchers at Long Island University (LIU) presented a study that researched ChatGPT's responses to 45 frequently asked questions of LIU College of Pharmacy's drug information service during a 16-month period from 2022 to 2023 as compared with researched responses provided by professional pharmacists. For 29 of the 39 questions for which there was sufficient medical literature for a data-driven response, ChatGPT failed to provide a direct answer or provided a wrong or incomplete answer (and in some cases, if acted upon, the answer would endanger the patient's health). The researchers had asked ChatGPT to provide medical research citations for all its answers, but it did so for only eight, and all eight included at least one fabricated (fake) citation.[244][245]
+
+
+A January 2024 study conducted by researchers at Cohen Children's Medical Center found that GPT-4 had an accuracy rate of 17% when diagnosing pediatric medical cases.[246][247] A November 2024 study of 50 physicians on illness diagnosis reported that GPT-4 achieved a 90% accuracy, while physicians scored 74% without AI assistance, and 76% when using the chatbot.[248]
+
+
+In January 2023, Massachusetts State Senator Barry Finegold and State Representative Josh S. Cutler proposed a bill partially written by ChatGPT, "An Act drafted with the help of ChatGPT to regulate generative artificial intelligence models like ChatGPT",[249][250][251] which would require companies to disclose their algorithms and data collection practices to the office of the State Attorney General, arrange regular risk assessments, and contribute to the prevention of plagiarism.[250][251][252] The bill was officially presented during a hearing on July 13.[249][251]
+
+
+On April 11, 2023, a session court judge in Pakistan used ChatGPT to decide the bail of a 13-year-old accused in a matter. The court quoted the use of ChatGPT assistance in its verdict:
+
+
+Can a juvenile suspect in Pakistan, who is 13 years old, be granted bail after arrest?
+
+The AI language model replied:
+
+
+Under the Juvenile Justice System Act 2018, according to section 12, the court can grant bail on certain conditions. However, it is up to the court to decide whether or not a 13-year-old suspect will be granted bail after arrest.
+
+The judge asked ChatGPT other questions about the case and formulated his final decision in light of its answers.[253][254]
+
+
+In Mata v. Avianca, Inc., 22-cv-1461 (PKC), a personal injury lawsuit against Avianca Airlines filed in the Southern New York U.S. District Court in May 2023 (with Senior Judge P. Kevin Castel presiding), the plaintiff's attorneys reportedly used ChatGPT to generate a legal motion. ChatGPT generated numerous fictitious legal cases involving fictitious airlines with fabricated quotations and internal citations in the legal motion. Castel noted numerous inconsistencies in the opinion summaries, and called one of the cases' legal analysis "gibberish".[255] The plaintiff's attorneys faced potential judicial sanction and disbarment for filing the motion and presenting the fictitious legal decisions ChatGPT generated as authentic.[256][257] The case was dismissed and the attorneys were fined $5,000.[258][259]
+
+
+In October 2023, the council of Porto Alegre, Brazil, unanimously approved a local ordinance proposed by councilman Ramiro Rosário that would exempt residents from needing to pay for the replacement of stolen water consumption meters; the bill went into effect on November 23. On November 29, Rosário revealed that the bill had been entirely written by ChatGPT, and that he had presented it to the rest of the council without making any changes or disclosing the chatbot's involvement.[252][260][261] The city's council president, Hamilton Sossmeier, initially criticized Rosário's initiative, saying it could represent "a dangerous precedent",[261][262] but later said he "changed his mind": "unfortunately or fortunately, this is going to be a trend."[252][260]
+
+
+In December 2023, a self-representing litigant in a tax case before the First-tier Tribunal in the United Kingdom cited a series of hallucinated cases purporting to support her argument that she had a reasonable excuse for not paying capital gains tax owed on the sale of property.[263][264] The judge warned that the submission of nonexistent legal authorities meant that both the Tribunal and HM Revenue and Customs had "to waste time and public money", which "reduces the resources available to progress the cases of other court users who are waiting for their appeals to be determined".[265]
+
+
+Judge Kevin Newsom of the US court of appeals of the 11th circuit endorsed the use of ChatGPT and noted that he himself uses the software to help decide rulings on contract interpretation issues.[266][267]
+
+
+The Las Vegas Metropolitan Police Department reported that the perpetrator of the 2025 Las Vegas truck explosion used ChatGPT to help plan the incident.[268]
+
+
+Conservative commentators have accused ChatGPT of bias toward left-leaning perspectives.[269][270][271] In January 2023, a study stated that ChatGPT has a pro-environmental, left-libertarian orientation.[272] Additionally, an August 2023 paper found a "significant and systematic political bias toward the Democrats in the US, Lula in Brazil, and the Labour Party in the UK."[273] In response to such criticism, OpenAI acknowledged plans to allow ChatGPT to create "outputs that other people (ourselves included) may strongly disagree with". It also contained information on the recommendations it had issued to human reviewers on how to handle controversial subjects, including that the AI should "offer to describe some viewpoints of people and movements", and not provide an argument "from its voice" in favor of "inflammatory or dangerous" topics (although it may still "describe arguments from historical people and movements"), nor "affiliate with one side" or "judge one group as good or bad".[271]
+
+
+The Guardian questioned whether any content found on the Internet after ChatGPT's release "can be truly trusted" and called for government regulation.[274]
+
+
+There has been concern about copyright infringement involving ChatGPT. In June 2023, two writers sued OpenAI, saying the company's training data came from illegal websites that show copyrighted books.[275] Comedian and author Sarah Silverman, Christopher Golden, and Richard Kadrey sued OpenAI and Meta for copyright infringement in July 2023.[276] Most of their claims were dismissed in February 2024, except the "unfair competition" claim, which was allowed to proceed.[277]
+
+
+The Authors Guild, on behalf of 17 authors, including George R. R. Martin, filed a copyright infringement complaint against OpenAI in September 2023, claiming "the company illegally copied the copyrighted works of authors" in training ChatGPT.[278] In December 2023, The New York Times sued OpenAI and Microsoft for copyright infringement,[279] arguing that Microsoft Copilot and ChatGPT could reproduce Times articles and/or sizable portions of them without permission.[280] As part of the suit, the Times has requested that OpenAI and Microsoft be prevented from using its content for training data, along with removing it from training datasets.[281]
+
+
+In March 2024, Patronus AI compared performance of LLMs on a 100-question test, asking them to complete sentences from books (e.g., "What is the first passage of Gone Girl by Gillian Flynn?") that were under copyright in the United States; it found that GPT-4, Mistral AI's Mixtral, Meta AI's LLaMA-2, and Anthropic's Claude 2 did not refuse to do so, providing sentences from the books verbatim in 44%, 22%, 10%, and 8% of responses, respectively.[282][283]
+
+
+In February 2025, the Delhi High Court accepted ANI's case against OpenAI over concerns that ChatGPT was sharing paywalled content without the news agency's consent. However, OpenAI's counsel said that due to the firm not having a physical presence in India, the court has no jurisdiction on the matter.[284]
+
+
+In 2023, Australian MP Julian Hill advised the national parliament that the growth of AI could cause "mass destruction". During his speech, which was partly written by the program, he warned that it could result in cheating, job losses, discrimination, disinformation, and uncontrollable military applications.[285]
+
+
+Elon Musk wrote: "ChatGPT is scary good. We are not far from dangerously strong AI".[120] He paused OpenAI's access to a Twitter database in 2022 pending a better understanding of OpenAI's plans, saying: "OpenAI was started as open source and nonprofit. Neither is still true."[286][287] Musk co-founded OpenAI in 2015, in part to address existential risk from artificial intelligence, but resigned in 2018.[287]
+
+
+Over 20,000 signatories including leading computer scientist and tech founders Yoshua Bengio, Elon Musk, and Apple co-founder Steve Wozniak, signed a March 2023 open letter calling for an immediate pause of giant AI experiments like ChatGPT, citing "profound risks to society and humanity".[288] Geoffrey Hinton, one of the "fathers of AI", voiced concerns that future AI systems may surpass human intelligence, and left Google in May 2023.[289][290] A May 2023 statement by hundreds of AI scientists, AI industry leaders, and other public figures demanded that "[m]itigating the risk of extinction from AI should be a global priority".[291]
+
+
+Some other prominent AI researchers spoke more optimistically about the advances. Juergen Schmidhuber, often called a "father of modern AI", did not sign the letter, emphasizing that in 95% of cases, AI research is about making "human lives longer and healthier and easier." Schmidhuber added that while AI can be used by bad actors, it "can also be used against the bad actors".[292] Andrew Ng argued that "it’s a mistake to fall for the doomsday hype on AI—and that regulators who do will only benefit vested interests."[293] WIRED wrote that Yann LeCun "scoffs at his peers’ dystopian scenarios of supercharged misinformation and even, eventually, human extinction."[294]
+
+
