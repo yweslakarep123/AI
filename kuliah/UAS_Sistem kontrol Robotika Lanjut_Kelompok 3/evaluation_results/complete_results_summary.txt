@@ -1,0 +1,33 @@
+SHINGLES DETECTION USING OTSU THRESHOLDING AND RANDOM FOREST
+============================================================
+
+OTSU THRESHOLDING FORMULAS:
+1. ω₀(t) = Σᵢ₌₀ᵗ p[i] (Background probability)
+2. ω₁(t) = Σᵢ₌ₜ₊₁²⁵⁵ p[i] (Foreground probability)
+3. μ₀(t) = Σᵢ₌₀ᵗ i·p[i]/ω₀(t) (Background mean)
+4. μ₁(t) = Σᵢ₌ₜ₊₁²⁵⁵ i·p[i]/ω₁(t) (Foreground mean)
+5. σ²ᵦ(t) = ω₀(t)·ω₁(t)·[μ₀(t) - μ₁(t)]² (Between-class variance)
+6. t* = argmax σ²ᵦ(t) (Optimal threshold)
+
+PERFORMANCE METRICS:
+Total Images Processed: 378
+Training Images: 260
+Test Images: 118
+Features Extracted: 37
+Test Accuracy: 0.8051
+Test Precision: 0.5741
+Test Recall: 1.0000
+Test F1-Score: 0.7294
+Test ROC-AUC: 0.9863
+Average Threshold (Healthy): 134.29
+Average Threshold (Shingles): 140.97
+
+CLASSIFICATION REPORT (Test Set):
+              precision    recall  f1-score   support
+
+     Healthy       1.00      0.74      0.85        87
+    Shingles       0.57      1.00      0.73        31
+
+    accuracy                           0.81       118
+   macro avg       0.79      0.87      0.79       118
+weighted avg       0.89      0.81      0.82       118
